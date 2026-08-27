@@ -15,7 +15,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <div className="min-h-screen bg-[url(/dist/landing-bg.jpg)] bg-fixed">
+      <div className="min-h-screen bg-[url(/landing-bg.jpg)] bg-fixed">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/users/signup" element={<Signup />} />
